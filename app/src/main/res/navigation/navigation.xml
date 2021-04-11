@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/pickPointFragment">
+
+    <fragment
+        android:id="@+id/pickPointFragment"
+        android:name="com.example.pickpoint.PickPointFragment"
+        android:label="fragment_pick_point"
+        tools:layout="@layout/fragment_pick_point" />
+</navigation>
